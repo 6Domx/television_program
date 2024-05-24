@@ -3,8 +3,10 @@
 # 1. "tv1's channel is 30 and volume level is 3"
 # 2. "tv2's channel is 3 and volume level is 2"
 
-
+# CLASS CREATION
 class TV:
+
+# CLASS DEFINITIONS 
     def __init__(self):
         self.channel = 1
         self.volume = 1
@@ -56,10 +58,12 @@ def TestTV():
     tv2.turnOn()
     tv2.setChannel(3)
     tv2.setVolume(2)
-    
+
+# FOR THE PRINTING OF THE CODE AND CALLING OF VARIABLES   
     print(f"tv1's channel is {tv1.getChannel()} and volume level is {tv1.getVolume()}")
     print(f"tv2's channel is {tv2.getChannel()} and volume level is {tv2.getVolume()}")
 
+# TO TEST THE CLASS
 TestTV()
 
 
